@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="XMLSchema1"
+    targetNamespace="http://tempuri.org/XMLSchema1.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/XMLSchema1.xsd"
+    xmlns:mstns="http://tempuri.org/XMLSchema1.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+
+  <xs:element name="CharacterProperty" type="CharacterPropertyType"/>
+  
+  <xs:complexType name="CharacterPropertyType">
+    <xs:sequence>
+      <xs:element name="attack1" type="attackProperty"/>
+      <xs:element name="attack2" type="attackProperty"/>
+      <xs:element name="attack3" type="attackProperty"/>
+      <xs:element name="attack4" type="attackProperty"/>
+      <xs:element name="attack5" type="attackProperty"/>
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="attackProperty">
+    <xs:sequence>
+      <xs:element name ="action" minOccurs="1" maxOccurs="3">
+        <xs:complexType> 
+         <xs:sequence>
+          <xs:element name="ownerMove" type="movingProperty"/>
+          <xs:element name="damageFactor" type="xs:float"/>
+          <xs:element name="frameNumber" type="xs:int"/>
+          <xs:element name ="abRemain" type="xs:float"/>
+          <xs:element name ="abMove" type="movingProperty"/>
+          <xs:element name ="abForce" type="CG3Point"/>
+          <xs:element name ="abSize" type="CG3Point"/>
+          <xs:element name ="abOffset" type="CG3Point"/>
+        </xs:sequence>
+       </xs:complexType>
+      </xs:element>  
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name ="movingProperty">
+    <xs:sequence>
+      <xs:element name ="unitVector" type="CG3Point"/>
+      <xs:element name ="speed" type ="xs:float"/>      
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name ="CG3Point">
+    <xs:sequence>
+      <xs:element name ="x" type="xs:float"/>
+      <xs:element name ="y" type="xs:float"/>
+      <xs:element name ="z" type="xs:float"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

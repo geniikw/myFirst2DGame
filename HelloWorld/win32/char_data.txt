@@ -1,0 +1,14 @@
+CHARACTER DATA
+NAME reimu-dev
+100 - 
+
+Speed Rank
+
+E	1	- 매우느림
+D	2	- 느림
+C	3	- 평범
+B	4	- 약간 빠름
+A	5	- 빠름
+S	6	- 매우 빠름
+SS	7	- 미친 빠름
+SSS	8	- 순간이동

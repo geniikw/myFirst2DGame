@@ -1,0 +1,560 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Framework\Manager">
+      <UniqueIdentifier>{bf2c8f5c-f452-4a16-a68f-3ddfdddb53e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\header">
+      <UniqueIdentifier>{a747c6a9-da21-416e-b6f0-c765e6929396}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\SceneTemplete">
+      <UniqueIdentifier>{fe749df8-40fd-4aec-b4d0-7ad65f72aceb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Scene">
+      <UniqueIdentifier>{a95c1719-f8f6-41a8-97bc-facba1a20992}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\ETC">
+      <UniqueIdentifier>{3438b792-8d10-4e0b-b8b2-461961862145}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyClasses">
+      <UniqueIdentifier>{a00cb847-6e8b-4e14-9d55-51ea63ee380f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyClasses\myMotionFormat">
+      <UniqueIdentifier>{c94b7b9e-0841-4a19-8e62-2c3905a5d7cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyClasses\myMotionFormat\motionDataFunc">
+      <UniqueIdentifier>{b0548ab3-6b07-4eb7-af37-ebb591120e78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyClasses\myMotionFormat\MotionSet">
+      <UniqueIdentifier>{ff786e41-b03e-4f4a-a666-047fa79743b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\BattleScene">
+      <UniqueIdentifier>{c9997acd-01cb-44ab-b2c6-00130e5e7297}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\BattleScene\Scene">
+      <UniqueIdentifier>{ef036fea-9dac-42b1-9099-1a7a77620c48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\textData">
+      <UniqueIdentifier>{f62c3395-1e25-469d-b6c4-e220bfff284e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\BattleScene\kwSprite">
+      <UniqueIdentifier>{b5a1d461-db56-4068-8b3b-ac9046ffde39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\BattleScene\kwSprite\2.5DClass">
+      <UniqueIdentifier>{cdc3cbb2-c530-4e7b-98a7-87a4593c2792}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\BattleScene\kwSprite\2.5DClass\parents">
+      <UniqueIdentifier>{426f1359-49ab-42e5-a373-8ca1a66d4509}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\BattleScene\kwSprite\2.5DClass\Unit">
+      <UniqueIdentifier>{99675425-a6e3-4fa0-9bdc-b2440dc177fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\BattleScene\kwSprite\debug">
+      <UniqueIdentifier>{33731d77-8aad-45d3-9f3d-ac7685f81b25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\BattleScene\kwOrder">
+      <UniqueIdentifier>{41295279-1db7-4629-ba67-fb1eda25cf2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\BattleScene\kwOrder\parents">
+      <UniqueIdentifier>{69d1d2e6-1978-4ef4-84e3-71554f7f71dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\BattleScene\kwSpriteChild">
+      <UniqueIdentifier>{9e40b745-d173-456c-b402-8c4526d07ddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\textData\data">
+      <UniqueIdentifier>{cf2f4ca1-665f-49ea-9be3-f6c7add73f2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\gameDataClass">
+      <UniqueIdentifier>{fc47ca29-6ff9-4b4c-b87e-1af5b3ae9673}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\TownScene">
+      <UniqueIdentifier>{864ce611-7936-4898-bc35-3c86f9546b74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\TownScene\Object_Town">
+      <UniqueIdentifier>{6570148e-d293-4dab-86f0-d44b96d20c72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\TownScene\Object_Town\UIObject">
+      <UniqueIdentifier>{b3a3014f-666e-4834-b2d5-1d88aef4ddaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\TownScene\Object_Town\UIObject\window">
+      <UniqueIdentifier>{93435781-51e0-4322-b84a-49801fcf731a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\BattleScene\kwSpriteChild\UnitDerivedClass">
+      <UniqueIdentifier>{aea0738b-de90-46f7-b2c7-372638e2091b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\TownScene\Object_Deco">
+      <UniqueIdentifier>{247855d9-f7f9-4385-af75-e56862fe0271}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\BattleScene\CCSprite">
+      <UniqueIdentifier>{075cebee-c0f9-491e-8cd4-169e798ce877}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\BattleScene\kwMsg">
+      <UniqueIdentifier>{4747ef31-eb6a-448c-a5c7-87244fee7db4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\common">
+      <UniqueIdentifier>{f2b7ba67-4823-4617-ab51-0aa50e2dc36d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\BattleScene\CCSprite\UI">
+      <UniqueIdentifier>{9c58f9a6-5de6-4624-bea9-9d5204d40c19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\BattleScene\kwMoving">
+      <UniqueIdentifier>{c095094a-bf88-4ed6-813b-6c37671dde12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\BattleScene\kwMoving\parents">
+      <UniqueIdentifier>{ad895156-5fd9-4b0c-9752-c09c894c9eba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\BattleScene\CCSprite\Effect">
+      <UniqueIdentifier>{16451afa-e64a-48c0-b196-537ea79274a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\XML_CharacterProperty">
+      <UniqueIdentifier>{b60cce52-8cbb-4cc8-b1d5-83b2b3cd82e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\BattleScene\kwSpriteChild\Battle_Hero">
+      <UniqueIdentifier>{42481b35-c585-4d75-8d43-ce9e281568b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\BattleScene\kwSpriteChild\Battle_Enermy">
+      <UniqueIdentifier>{adefafd1-a6bb-43c7-8910-2ad57cf30fbe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\AppDelegate.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="basicScene.cpp">
+      <Filter>Framework\SceneTemplete</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneTitle.cpp">
+      <Filter>Framework\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MotionSet.cpp">
+      <Filter>MyClasses\myMotionFormat\MotionSet</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_Hero.cpp">
+      <Filter>Framework\TownScene\Object_Town</Filter>
+    </ClCompile>
+    <ClCompile Include="dataMotion.cpp">
+      <Filter>MyClasses\myMotionFormat\motionDataFunc</Filter>
+    </ClCompile>
+    <ClCompile Include="MotionFileFormatClass.cpp">
+      <Filter>MyClasses\myMotionFormat\motionDataFunc</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject_Deco.cpp">
+      <Filter>Framework\TownScene\Object_Deco</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager_Resource.cpp">
+      <Filter>Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneLoading.cpp">
+      <Filter>Framework\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="header.cpp">
+      <Filter>Framework\header</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_Menu.cpp">
+      <Filter>Framework\TownScene\Object_Town\UIObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager_Global.cpp">
+      <Filter>Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_CharState.cpp">
+      <Filter>Framework\TownScene\Object_Town\UIObject\window</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_TownMenu.cpp">
+      <Filter>Framework\TownScene\Object_Town\UIObject\window</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneBattle.cpp">
+      <Filter>Framework\BattleScene\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MYUnit.cpp">
+      <Filter>Framework\BattleScene\kwSprite\2.5DClass\parents</Filter>
+    </ClCompile>
+    <ClCompile Include="kwSprite.cpp">
+      <Filter>Framework\BattleScene\kwSprite</Filter>
+    </ClCompile>
+    <ClCompile Include="My3DEllipse.cpp">
+      <Filter>Framework\BattleScene\kwSprite\2.5DClass</Filter>
+    </ClCompile>
+    <ClCompile Include="My3DCube.cpp">
+      <Filter>Framework\BattleScene\kwSprite\2.5DClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>Framework\BattleScene\kwSprite\2.5DClass\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_Char.cpp">
+      <Filter>Framework\BattleScene\kwSprite\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_MiniCube.cpp">
+      <Filter>Framework\BattleScene\kwSprite\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGroundSprite.cpp">
+      <Filter>Framework\BattleScene\kwSpriteChild</Filter>
+    </ClCompile>
+    <ClCompile Include="kwController.cpp">
+      <Filter>Framework\BattleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Battle_Unit.cpp">
+      <Filter>Framework\BattleScene\kwSpriteChild</Filter>
+    </ClCompile>
+    <ClCompile Include="Status.cpp">
+      <Filter>Framework\BattleScene\kwSpriteChild\UnitDerivedClass</Filter>
+    </ClCompile>
+    <ClCompile Include="kwOrder.cpp">
+      <Filter>Framework\BattleScene\kwOrder\parents</Filter>
+    </ClCompile>
+    <ClCompile Include="Character_data.cpp">
+      <Filter>Framework\gameDataClass</Filter>
+    </ClCompile>
+    <ClCompile Include="My3DCursor.cpp">
+      <Filter>Framework\BattleScene\kwSprite\2.5DClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Battle_Cursor.cpp">
+      <Filter>Framework\BattleScene\kwSpriteChild</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneTown.cpp">
+      <Filter>Framework\TownScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Framework\BattleScene\kwSpriteChild\UnitDerivedClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Battle_AttackBox.cpp">
+      <Filter>Framework\BattleScene\kwSpriteChild</Filter>
+    </ClCompile>
+    <ClCompile Include="kwOrderWaiting.cpp">
+      <Filter>Framework\BattleScene\kwOrder</Filter>
+    </ClCompile>
+    <ClCompile Include="kwOrderHit.cpp">
+      <Filter>Framework\BattleScene\kwOrder</Filter>
+    </ClCompile>
+    <ClCompile Include="Shadow.cpp">
+      <Filter>Framework\BattleScene\kwSpriteChild\UnitDerivedClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Battle_Damage.cpp">
+      <Filter>Framework\BattleScene\CCSprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Portrait.cpp">
+      <Filter>Framework\common</Filter>
+    </ClCompile>
+    <ClCompile Include="Battle_Portrait.cpp">
+      <Filter>Framework\BattleScene\CCSprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Battle_CharUI.cpp">
+      <Filter>Framework\BattleScene\CCSprite\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Action_Card.cpp">
+      <Filter>Framework\common</Filter>
+    </ClCompile>
+    <ClCompile Include="Battle_MenuUI.cpp">
+      <Filter>Framework\BattleScene\CCSprite</Filter>
+    </ClCompile>
+    <ClCompile Include="kwMsg_Action.cpp">
+      <Filter>Framework\BattleScene\kwMsg</Filter>
+    </ClCompile>
+    <ClCompile Include="kwOrderAction.cpp">
+      <Filter>Framework\BattleScene\kwOrder</Filter>
+    </ClCompile>
+    <ClCompile Include="kwMsg_Ani.cpp">
+      <Filter>Framework\BattleScene\kwMsg</Filter>
+    </ClCompile>
+    <ClCompile Include="kwMoving.cpp">
+      <Filter>Framework\BattleScene\kwMoving\parents</Filter>
+    </ClCompile>
+    <ClCompile Include="kwMoving_Target.cpp">
+      <Filter>Framework\BattleScene\kwMoving</Filter>
+    </ClCompile>
+    <ClCompile Include="kwMoving_Curve.cpp">
+      <Filter>Framework\BattleScene\kwMoving</Filter>
+    </ClCompile>
+    <ClCompile Include="kwOrderMoveToPoint.cpp">
+      <Filter>Framework\BattleScene\kwOrder</Filter>
+    </ClCompile>
+    <ClCompile Include="kwMoving_Vector.cpp">
+      <Filter>Framework\BattleScene\kwMoving</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectSprite.cpp">
+      <Filter>Framework\BattleScene\CCSprite\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Battle_CutEffect.cpp">
+      <Filter>Framework\BattleScene\CCSprite\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Battle_HitEffect.cpp">
+      <Filter>Framework\BattleScene\CCSprite\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Battle_ATB.cpp">
+      <Filter>Framework\BattleScene\CCSprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Battle_Meiling.cpp">
+      <Filter>Framework\BattleScene\kwSpriteChild\Battle_Hero</Filter>
+    </ClCompile>
+    <ClCompile Include="Battle_Komachi.cpp">
+      <Filter>Framework\BattleScene\kwSpriteChild\Battle_Hero</Filter>
+    </ClCompile>
+    <ClCompile Include="Battle_Reimu.cpp">
+      <Filter>Framework\BattleScene\kwSpriteChild\Battle_Hero</Filter>
+    </ClCompile>
+    <ClCompile Include="Battle_Aya.cpp">
+      <Filter>Framework\BattleScene\kwSpriteChild\Battle_Hero</Filter>
+    </ClCompile>
+    <ClCompile Include="Battle_Enermy.cpp">
+      <Filter>Framework\BattleScene\kwSpriteChild\Battle_Enermy</Filter>
+    </ClCompile>
+    <ClCompile Include="kwOrder_Crash.cpp">
+      <Filter>Framework\BattleScene\kwOrder</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager_Sound.cpp">
+      <Filter>Framework\Manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\AppDelegate.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="basicScene.h">
+      <Filter>Framework\SceneTemplete</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneTitle.h">
+      <Filter>Framework\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_Hero.h">
+      <Filter>Framework\TownScene\Object_Town</Filter>
+    </ClInclude>
+    <ClInclude Include="MotionSet.h">
+      <Filter>MyClasses\myMotionFormat\MotionSet</Filter>
+    </ClInclude>
+    <ClInclude Include="dataFrame.h">
+      <Filter>MyClasses\myMotionFormat\motionDataFunc</Filter>
+    </ClInclude>
+    <ClInclude Include="dataMotion.h">
+      <Filter>MyClasses\myMotionFormat\motionDataFunc</Filter>
+    </ClInclude>
+    <ClInclude Include="MotionFileFormatClass.h">
+      <Filter>MyClasses\myMotionFormat\motionDataFunc</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject_Deco.h">
+      <Filter>Framework\TownScene\Object_Deco</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_header.h">
+      <Filter>Framework\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager_Resource.h">
+      <Filter>Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneLoading.h">
+      <Filter>Framework\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="header.h">
+      <Filter>Framework\header</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_Menu.h">
+      <Filter>Framework\TownScene\Object_Town\UIObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager_Global.h">
+      <Filter>Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_CharState.h">
+      <Filter>Framework\TownScene\Object_Town\UIObject\window</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_TownMenu.h">
+      <Filter>Framework\TownScene\Object_Town\UIObject\window</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneBattle.h">
+      <Filter>Framework\BattleScene\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="MYUnit.h">
+      <Filter>Framework\BattleScene\kwSprite\2.5DClass\parents</Filter>
+    </ClInclude>
+    <ClInclude Include="myUnitHeader.h">
+      <Filter>Framework\BattleScene\kwSprite\2.5DClass\parents</Filter>
+    </ClInclude>
+    <ClInclude Include="kwSprite.h">
+      <Filter>Framework\BattleScene\kwSprite</Filter>
+    </ClInclude>
+    <ClInclude Include="My3DEllipse.h">
+      <Filter>Framework\BattleScene\kwSprite\2.5DClass</Filter>
+    </ClInclude>
+    <ClInclude Include="My3DCube.h">
+      <Filter>Framework\BattleScene\kwSprite\2.5DClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Framework\BattleScene\kwSprite\2.5DClass\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="myUnitHeader.cpp">
+      <Filter>Framework\BattleScene\kwSprite\2.5DClass\parents</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_Char.h">
+      <Filter>Framework\BattleScene\kwSprite\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_MiniCube.h">
+      <Filter>Framework\BattleScene\kwSprite\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGroundSprite.h">
+      <Filter>Framework\BattleScene\kwSpriteChild</Filter>
+    </ClInclude>
+    <ClInclude Include="kwController.h">
+      <Filter>Framework\BattleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Battle_Unit.h">
+      <Filter>Framework\BattleScene\kwSpriteChild</Filter>
+    </ClInclude>
+    <ClInclude Include="Status.h">
+      <Filter>Framework\BattleScene\kwSpriteChild\UnitDerivedClass</Filter>
+    </ClInclude>
+    <ClInclude Include="header_Unit.h">
+      <Filter>Framework\header</Filter>
+    </ClInclude>
+    <ClInclude Include="kwOrder.h">
+      <Filter>Framework\BattleScene\kwOrder\parents</Filter>
+    </ClInclude>
+    <ClInclude Include="Character_data.h">
+      <Filter>Framework\gameDataClass</Filter>
+    </ClInclude>
+    <ClInclude Include="My3DCursor.h">
+      <Filter>Framework\BattleScene\kwSprite\2.5DClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Battle_Cursor.h">
+      <Filter>Framework\BattleScene\kwSpriteChild</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneTown.h">
+      <Filter>Framework\TownScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Framework\BattleScene\kwSpriteChild\UnitDerivedClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Battle_AttackBox.h">
+      <Filter>Framework\BattleScene\kwSpriteChild</Filter>
+    </ClInclude>
+    <ClInclude Include="kwOrderWaiting.h">
+      <Filter>Framework\BattleScene\kwOrder</Filter>
+    </ClInclude>
+    <ClInclude Include="kwOrderHit.h">
+      <Filter>Framework\BattleScene\kwOrder</Filter>
+    </ClInclude>
+    <ClInclude Include="Shadow.h">
+      <Filter>Framework\BattleScene\kwSpriteChild\UnitDerivedClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Battle_Damage.h">
+      <Filter>Framework\BattleScene\CCSprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Portrait.h">
+      <Filter>Framework\common</Filter>
+    </ClInclude>
+    <ClInclude Include="Battle_Portrait.h">
+      <Filter>Framework\BattleScene\CCSprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Battle_CharUI.h">
+      <Filter>Framework\BattleScene\CCSprite\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Action_Card.h">
+      <Filter>Framework\common</Filter>
+    </ClInclude>
+    <ClInclude Include="Battle_MenuUI.h">
+      <Filter>Framework\BattleScene\CCSprite</Filter>
+    </ClInclude>
+    <ClInclude Include="kwMsg_Action.h">
+      <Filter>Framework\BattleScene\kwMsg</Filter>
+    </ClInclude>
+    <ClInclude Include="kwOrderAction.h">
+      <Filter>Framework\BattleScene\kwOrder</Filter>
+    </ClInclude>
+    <ClInclude Include="kwMsg_Ani.h">
+      <Filter>Framework\BattleScene\kwMsg</Filter>
+    </ClInclude>
+    <ClInclude Include="kwMoving.h">
+      <Filter>Framework\BattleScene\kwMoving\parents</Filter>
+    </ClInclude>
+    <ClInclude Include="kwMoving_Target.h">
+      <Filter>Framework\BattleScene\kwMoving</Filter>
+    </ClInclude>
+    <ClInclude Include="kwMoving_Curve.h">
+      <Filter>Framework\BattleScene\kwMoving</Filter>
+    </ClInclude>
+    <ClInclude Include="kwOrderMoveToPoint.h">
+      <Filter>Framework\BattleScene\kwOrder</Filter>
+    </ClInclude>
+    <ClInclude Include="kwMoving_Vector.h">
+      <Filter>Framework\BattleScene\kwMoving</Filter>
+    </ClInclude>
+    <ClInclude Include="kwOrderMoveToTarget.h">
+      <Filter>Framework\BattleScene\kwOrder</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectSprite.h">
+      <Filter>Framework\BattleScene\CCSprite\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Battle_CutEffect.h">
+      <Filter>Framework\BattleScene\CCSprite\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Battle_HitEffect.h">
+      <Filter>Framework\BattleScene\CCSprite\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Battle_Meiling.h">
+      <Filter>Framework\BattleScene\kwSpriteChild\Battle_Hero</Filter>
+    </ClInclude>
+    <ClInclude Include="Battle_Komachi.h">
+      <Filter>Framework\BattleScene\kwSpriteChild\Battle_Hero</Filter>
+    </ClInclude>
+    <ClInclude Include="Battle_Reimu.h">
+      <Filter>Framework\BattleScene\kwSpriteChild\Battle_Hero</Filter>
+    </ClInclude>
+    <ClInclude Include="Battle_Aya.h">
+      <Filter>Framework\BattleScene\kwSpriteChild\Battle_Hero</Filter>
+    </ClInclude>
+    <ClInclude Include="Battle_ATB.h">
+      <Filter>Framework\BattleScene\CCSprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Battle_Enermy.h">
+      <Filter>Framework\BattleScene\kwSpriteChild\Battle_Enermy</Filter>
+    </ClInclude>
+    <ClInclude Include="kwOrder_Crash.h">
+      <Filter>Framework\BattleScene\kwOrder</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager_Sound.h">
+      <Filter>Framework\Manager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LoadingList.list">
+      <Filter>Framework\textData</Filter>
+    </None>
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameSchool.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="developeNote.txt">
+      <Filter>Framework\textData</Filter>
+    </Text>
+    <Text Include="char_data.txt">
+      <Filter>Framework\textData\data</Filter>
+    </Text>
+    <Text Include="note.txt">
+      <Filter>Framework\textData</Filter>
+    </Text>
+    <Text Include="리소스 출처.txt">
+      <Filter>Framework</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Xsd Include="XMLSchema1.xsd">
+      <Filter>Framework</Filter>
+    </Xsd>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="meiling.xml">
+      <Filter>Framework\XML_CharacterProperty</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>

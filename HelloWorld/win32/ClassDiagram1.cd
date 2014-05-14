@@ -1,0 +1,614 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AppDelegate" Collapsed="true">
+    <Position X="21.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAACAAQAAAEAAAAAAAAAIAAg=</HashCode>
+      <FileName>C:\Users\kiwom\Documents\111동방 뽑기 파이터\HelloWorld\AppDelegate.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Manager_Resource" Collapsed="true">
+    <Position X="23" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAQAAAIIAQAAAAAgAIAAAAAAABAAAQAAAAAAAAEQIA=</HashCode>
+      <FileName>Manager_Resource.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Manager_Global" Collapsed="true">
+    <Position X="21.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAIAAAAAAQACAAAAAIAAgBQAAQAEAAAAAAgAIA=</HashCode>
+      <FileName>Manager_Global.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="basicScene" Collapsed="true">
+    <Position X="23" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAIAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>basicScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneTitle" Collapsed="true">
+    <Position X="24.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAQAAAAACIAgAAFAYABAAAAIAIBAAAAQAAAAAQ=</HashCode>
+      <FileName>SceneTitle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneLoading" Collapsed="true">
+    <Position X="23" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AADAAAACAAAACAAAAACCAIAAQAAAACMAEMAQAAEAAAA=</HashCode>
+      <FileName>SceneLoading.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KwController" Collapsed="true">
+    <Position X="26.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQQEAAAACCsCgAAAAAAABAAAIAAAAAAAAAAABAAAACQ=</HashCode>
+      <FileName>kwController.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kwSprite" Collapsed="true">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIABCAQAACAIgCAABIAAAgCAAAAgAICAQhQIAAEAEA=</HashCode>
+      <FileName>kwSprite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="My3DCube" Collapsed="true">
+    <Position X="9" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABCBAAAAAIAA4BiQABAAAAAOIAAAAAAgCAAgAAIQAAA=</HashCode>
+      <FileName>My3DCube.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="My3DEllipse" Collapsed="true">
+    <Position X="11.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAABAAAAAAAAAAAAAACAAAABAAAAA=</HashCode>
+      <FileName>My3DEllipse.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="My3DCursor" Collapsed="true">
+    <Position X="13.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gBAAAAAAAAAAAAABABgAAAAAIAIABAAIQAAAAAAQAAA=</HashCode>
+      <FileName>My3DCursor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MYUnit" Collapsed="true">
+    <Position X="11.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAIABQS0Aw4BlCARAAACAeIAABAAgACAVgAAQAAgg=</HashCode>
+      <FileName>MYUnit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Object_Char" Collapsed="true">
+    <Position X="10.25" Y="2" Width="1.5" />
+    <InheritanceLine Type="kwSprite" FixedToPoint="true">
+      <Path>
+        <Point X="7.5" Y="1.191" />
+        <Point X="7.5" Y="1.625" />
+        <Point X="10.875" Y="1.625" />
+        <Point X="10.875" Y="2" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAgAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Object_Char.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Object_MiniCube" Collapsed="true">
+    <Position X="12.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAQAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Object_MiniCube.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kwOrderMoveToPoint" Collapsed="true">
+    <Position X="1" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAIAAAAAAAABEAABEAEQAAAgEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>kwOrderMoveToPoint.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kwOrderAction" Collapsed="true">
+    <Position X="3.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgACAAAAAAAAEAAAEAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>kwOrderAction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kwOrderWaiting" Collapsed="true">
+    <Position X="5.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAYAAAAAAAAAACCAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>kwOrderWaiting.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kwOrderHit" Collapsed="true">
+    <Position X="7.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAIAAAAAAAAFAAAAAAAAAgAAAAAACCAAAAA=</HashCode>
+      <FileName>kwOrderHit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kwOrder" Collapsed="true">
+    <Position X="4.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAIAAAAAAAEAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>kwOrder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Battle_Unit" Collapsed="true">
+    <Position X="3.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DDDEgAABAAIAACEABBAAAIkgAAAAMApRAEAAAIAgAAA=</HashCode>
+      <FileName>Battle_Unit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BackGroundSprite" Collapsed="true">
+    <Position X="3.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kABAEBAAgAAAAAAAABAEABABIQAABAfABSEQAQAAwEU=</HashCode>
+      <FileName>BackGroundSprite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Battle_Cursor" Collapsed="true">
+    <Position X="5.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABCAgAIAAAAAAAQAAIAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Battle_Cursor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Battle_AttackBox" Collapsed="true">
+    <Position X="6.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAgAAACAAAAIAARBAAQIBgACgIAAAAAAQABAAAAAA=</HashCode>
+      <FileName>Battle_AttackBox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Status" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQABAEAAgAAAAgAAAAAAAAAAAAQEAABAAAAAAgAQA=</HashCode>
+      <FileName>Status.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Animation" Collapsed="true">
+    <Position X="14.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAjAAAABAAIAAAQACCCAAAAABRQAA=</HashCode>
+      <FileName>Animation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shadow" Collapsed="true">
+    <Position X="17" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgEAAAAAAAAEAUAABBIAAAAAAAAAAgACAAAAAAAA=</HashCode>
+      <FileName>Shadow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Battle_Damage" Collapsed="true">
+    <Position X="24.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAACAQgAAAgBAAAAABQAAAAIAIAAAAAAAgAgAA=</HashCode>
+      <FileName>Battle_Damage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Battle_Portrait" Collapsed="true">
+    <Position X="28.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAEAAAAAAAAAAAAAAAAAAABCAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Battle_Portrait.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Battle_MenuUI" Collapsed="true">
+    <Position X="26.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABIACAAIAAAAAIAgAAAABAAAAAAAAAAAAAAABBAAAE=</HashCode>
+      <FileName>Battle_MenuUI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Battle_CharUI" Collapsed="true">
+    <Position X="14.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AghAoAAAAACAAAAAACgAAAIAQAAAAAAAGAAAAAAQAAE=</HashCode>
+      <FileName>Battle_CharUI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kwMsg_Action" Collapsed="true">
+    <Position X="28.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAgABAAAQAICAABAIAAAQAAAgAAAEAAAAAA=</HashCode>
+      <FileName>kwMsg_Action.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kwMsg_Ani" Collapsed="true">
+    <Position X="19.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAABAAACAAQAACAAAAAABAAAA=</HashCode>
+      <FileName>kwMsg_Ani.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kwMoving_Target" Collapsed="true">
+    <Position X="3.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAFAAAAAAQAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>kwMoving_Target.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kwMoving_Curve" Collapsed="true">
+    <Position X="5.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAAIAAQAA=</HashCode>
+      <FileName>kwMoving_Curve.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kwMoving" Collapsed="true">
+    <Position X="3.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAIAAAAAAAABAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>kwMoving.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Character_data" Collapsed="true">
+    <Position X="19.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAgAQAAAAAAAAAAAAAAAAAQAAIgIQA=</HashCode>
+      <FileName>Character_data.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneTown" Collapsed="true">
+    <Position X="26.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABEAAAAKCEAAAAAIAABAIAhQUBAAAIAYAAAAAAAAQQ=</HashCode>
+      <FileName>SceneTown.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Object_Hero" Collapsed="true">
+    <Position X="28.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AADABAUAAAJAAAgACIAgEJAAAAAAAAIAQBAAEAAAQAA=</HashCode>
+      <FileName>Object_Hero.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UI_Menu" Collapsed="true">
+    <Position X="19.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACBAAggAIAAgAAAAAgAAAIAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>UI_Menu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UI_TownMenu" Collapsed="true">
+    <Position X="21.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>UI_TownMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UI_CharState" Collapsed="true">
+    <Position X="28.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAEAAAAAAACAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>UI_CharState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CObject_Deco" Collapsed="true">
+    <Position X="21.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAQAAAQAAgAAAQAAAAAAMAAAAAAAAAAAA=</HashCode>
+      <FileName>CObject_Deco.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portrait" Collapsed="true">
+    <Position X="19.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAIAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Portrait.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Action_Card" Collapsed="true">
+    <Position X="19.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAgAAAAAAAAAAAABAAAAIAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Action_Card.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dataFrame" Collapsed="true">
+    <Position X="23" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAEAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>dataFrame.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dataMotion" Collapsed="true">
+    <Position X="24.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAkAAAAABAAAACAAAAAAAgJAAABAAAAEAgBAAAg=</HashCode>
+      <FileName>dataMotion.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotionFileFormatClass" Collapsed="true">
+    <Position X="24.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAEAEAAAgAAAAAAAAAAAAAQAQAAACAAAAAAQAAIAA=</HashCode>
+      <FileName>MotionFileFormatClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotionSet" Collapsed="true">
+    <Position X="26.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAFAAAAAAAAAAAAAgAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>MotionSet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kwMoving_Vector" Collapsed="true">
+    <Position X="1" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAFEIAAAgQAAAFAEAAAAAAAAA=</HashCode>
+      <FileName>kwMoving_Vector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kwOrderMoveToTarget" Collapsed="true">
+    <Position X="2" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAIAAAAAAAABEAABEAEQAAAgAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>kwOrderMoveToTarget.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Battle_CutEffect" Collapsed="true">
+    <Position X="11.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Battle_CutEffect.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EffectSprite" Collapsed="true">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>EffectSprite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Battle_HitEffect" Collapsed="true">
+    <Position X="14.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AARAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAABQAA=</HashCode>
+      <FileName>Battle_HitEffect.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Character_ActionData" Collapsed="true">
+    <Position X="17.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Character_ActionData.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Resource_Unit" Collapsed="true">
+    <Position X="24.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAIAAAAAAAAAAAAAGAAAAAAA=</HashCode>
+      <FileName>Manager_Resource.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="LoadingResult" Collapsed="true">
+    <Position X="28.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Manager_Resource.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="mapData" Collapsed="true">
+    <Position X="19.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAACAAAgA=</HashCode>
+      <FileName>MYUnit.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CG3Point" Collapsed="true">
+    <Position X="21.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAQAQAAAAAQQAAAAAAAAAAAABgAQAAAAA=</HashCode>
+      <FileName>Point.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CG3Cube" Collapsed="true">
+    <Position X="19.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Point.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_AB" Collapsed="true">
+    <Position X="26.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Battle_Unit.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="FrameUnit" Collapsed="true">
+    <Position X="24.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAhgAAAAAAA=</HashCode>
+      <FileName>dataFrame.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="FrameOptionData" Collapsed="true">
+    <Position X="23" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAADAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>dataFrame.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="MotionFileHeader" Collapsed="true">
+    <Position X="21.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>MotionFileFormatClass.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="MotionFileSet" Collapsed="true">
+    <Position X="23" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAQQAAgA=</HashCode>
+      <FileName>MotionFileFormatClass.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="gl2DFrame" Collapsed="true">
+    <Position X="26.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>MotionSet.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="cInt" Collapsed="true">
+    <Position X="19.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>header.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CN" Collapsed="true">
+    <Position X="13.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>header.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="AC" Collapsed="true">
+    <Position X="9.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>header.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CAT" Collapsed="true">
+    <Position X="5.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>header.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="KeySet" Collapsed="true">
+    <Position X="21.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>kwController.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CT" Collapsed="true">
+    <Position X="1.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>kwSprite.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="BE" Collapsed="true">
+    <Position X="0.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>header.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="SPD_RANK" Collapsed="true">
+    <Position X="23" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAAQA8AAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>header.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CharacterName" Collapsed="true">
+    <Position X="13.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACACAAAAAoAAAASICQAEAAAAgAAIEBAEAIAAAAAE=</HashCode>
+      <FileName>header.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AC_CARD_LIST" Collapsed="true">
+    <Position X="9.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAABAAcAwAAAAAAAAAAAAAAYAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>header.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CharacterAnimationTag" Collapsed="true">
+    <Position X="5.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAIAIIAAgAACgQACAAAAAACAAAAAAEAA=</HashCode>
+      <FileName>header.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ENUM_ZORDER" Collapsed="true">
+    <Position X="24.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAIAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>header.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ENUM_STATE" Collapsed="true">
+    <Position X="23" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAgACAAAAAAAAAAAQ=</HashCode>
+      <FileName>Object_header.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ENUM_RUN" Collapsed="true">
+    <Position X="19.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAQAAAIAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Object_header.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ENUM_SPEECH" Collapsed="true">
+    <Position X="21.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAABAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Object_header.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="KW_KEY" Collapsed="true">
+    <Position X="26.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAECAAAgAAAAAAAAAAAAAAAAAAAAAKApgAkEAgA=</HashCode>
+      <FileName>kwController.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CharacterTag" Collapsed="true">
+    <Position X="1.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAgAAAAAAAAAACAAAAAAAAAAAAAAAAAAQAAAAAAAABA=</HashCode>
+      <FileName>kwSprite.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="orderProcess" Collapsed="true">
+    <Position X="19.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAABAAAAAAAA=</HashCode>
+      <FileName>kwOrder.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="orderTag" Collapsed="true">
+    <Position X="21.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAEABAAE=</HashCode>
+      <FileName>kwOrder.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MenuPosition" Collapsed="true">
+    <Position X="28.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAgAAAEABAAAEAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Battle_CharUI.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BATTLE_EFFECT_LIST" Collapsed="true">
+    <Position X="0.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>header.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>

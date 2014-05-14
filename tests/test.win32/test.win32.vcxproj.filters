@@ -1,0 +1,522 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="framework">
+      <UniqueIdentifier>{92eee71b-0326-4f54-a812-f86dbf6bd00f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{6772f048-4d76-4fe1-b860-0fc24a1ffba1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests">
+      <UniqueIdentifier>{6b3e0c6a-8aff-4846-a058-669a3bcae551}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\ActionsTest">
+      <UniqueIdentifier>{d101c7ac-bacf-4887-99a5-45e3200c64ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\TransitionsTest">
+      <UniqueIdentifier>{440006ee-41a0-4204-a9e5-b12340382702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\ProgressActionsTest">
+      <UniqueIdentifier>{3e8373b4-ade6-479c-9a4e-384163d0e4d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\EffectsTest">
+      <UniqueIdentifier>{9accd3b2-eced-4a0c-a76f-869ee6d53f89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\ClickAndMoveTest">
+      <UniqueIdentifier>{ec95636c-f438-49d4-a826-2d30d592af5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\RotateWorldTest">
+      <UniqueIdentifier>{6e105fb8-d155-48db-ac8b-7575c60cc132}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\ParticleTest">
+      <UniqueIdentifier>{7783f130-3381-484d-9129-d9af5b7612ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\EaseActionsTest">
+      <UniqueIdentifier>{ea058011-ce4e-4ea8-a644-5a8cddb28054}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\MotionStreakTest">
+      <UniqueIdentifier>{29fdc379-7fd2-4445-aa28-a589d09addcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\DrawPrimitivesTest">
+      <UniqueIdentifier>{f466d56e-896c-4007-97ed-600e3753a8ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\CocosNodeTest">
+      <UniqueIdentifier>{d4b07472-1ae2-4eeb-8dbe-7604db87a944}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\TouchesTest">
+      <UniqueIdentifier>{97e38811-73c7-41d0-8717-90ac5470ee01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\MenuTest">
+      <UniqueIdentifier>{47d26f6a-f6a0-4b89-995f-fef5b470fb45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\ActionManagerTest">
+      <UniqueIdentifier>{142de91c-2820-4674-aaee-6e3f20e37893}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\LayerTest">
+      <UniqueIdentifier>{dfd7dcbb-de18-4f14-b73d-82ad52e76a9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\SceneTest">
+      <UniqueIdentifier>{1bc0ca7a-74ec-4740-9591-d21b88966b88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\ParallaxTest">
+      <UniqueIdentifier>{2c9c03ef-5894-47d7-8e15-ebb474b54502}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\TileMapTest">
+      <UniqueIdentifier>{bda7aaff-b9c0-450d-a303-0a4733f4c34f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\IntervalTest">
+      <UniqueIdentifier>{5cac5fdb-7d9d-43aa-ad7a-9bcd4e5fd766}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\AtlasTest">
+      <UniqueIdentifier>{71d6e8e8-8d21-427e-a284-e7a0c8b0d2d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\SpriteTest">
+      <UniqueIdentifier>{e0d3bcc0-622a-497b-80c3-9fa742db5870}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\SchedulerTest">
+      <UniqueIdentifier>{fe5941b0-f615-4af5-a0e2-049fff461b57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\RenderTextureTest">
+      <UniqueIdentifier>{78a1b3ab-7871-4bcf-be6c-91ce373f9e20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\ChipmunkTest">
+      <UniqueIdentifier>{f05c19ce-33cc-4e61-b220-d29f58444455}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\Box2dTest">
+      <UniqueIdentifier>{665f436c-7872-4bbc-bdb5-3b02e66633e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\Box2DTestBed">
+      <UniqueIdentifier>{683390a7-7854-496f-baae-8e6e27acf264}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\Box2DTestBed\Tests">
+      <UniqueIdentifier>{c486290b-442f-48cf-b19f-7534a2ce46eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\EffectsAdvancedTest">
+      <UniqueIdentifier>{03c8cd43-33bd-4c25-b47a-2df7f9786001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\HiResTest">
+      <UniqueIdentifier>{83923dce-8c4f-4328-8448-80e8e391588d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\KeypadTest">
+      <UniqueIdentifier>{0d8d9dee-9470-48fb-ac15-9a5fd5a1d120}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\CocosDenshionTest">
+      <UniqueIdentifier>{d98b5d44-9df4-4a42-b03f-b0020e3da2a9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AppDelegate.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\controller.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\testBasic.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\ActionsTest\ActionsTest.cpp">
+      <Filter>tests\ActionsTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\TransitionsTest\TransitionsTest.cpp">
+      <Filter>tests\TransitionsTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\ProgressActionsTest\ProgressActionsTest.cpp">
+      <Filter>tests\ProgressActionsTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\EffectsTest\EffectsTest.cpp">
+      <Filter>tests\EffectsTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\ClickAndMoveTest\ClickAndMoveTest.cpp">
+      <Filter>tests\ClickAndMoveTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\RotateWorldTest\RotateWorldTest.cpp">
+      <Filter>tests\RotateWorldTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\ParticleTest\ParticleTest.cpp">
+      <Filter>tests\ParticleTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\EaseActionsTest\EaseActionsTest.cpp">
+      <Filter>tests\EaseActionsTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\MotionStreakTest\MotionStreakTest.cpp">
+      <Filter>tests\MotionStreakTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\DrawPrimitivesTest\DrawPrimitivesTest.cpp">
+      <Filter>tests\DrawPrimitivesTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\CocosNodeTest\CocosNodeTest.cpp">
+      <Filter>tests\CocosNodeTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\TouchesTest\Ball.cpp">
+      <Filter>tests\TouchesTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\TouchesTest\Paddle.cpp">
+      <Filter>tests\TouchesTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\TouchesTest\TouchesTest.cpp">
+      <Filter>tests\TouchesTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\MenuTest\MenuTest.cpp">
+      <Filter>tests\MenuTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\ActionManagerTest\ActionManagerTest.cpp">
+      <Filter>tests\ActionManagerTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\LayerTest\LayerTest.cpp">
+      <Filter>tests\LayerTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\SceneTest\SceneTest.cpp">
+      <Filter>tests\SceneTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\ParallaxTest\ParallaxTest.cpp">
+      <Filter>tests\ParallaxTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\TileMapTest\TileMapTest.cpp">
+      <Filter>tests\TileMapTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\IntervalTest\IntervalTest.cpp">
+      <Filter>tests\IntervalTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\AtlasTest\AtlasTest.cpp">
+      <Filter>tests\AtlasTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\SpriteTest\SpriteTest.cpp">
+      <Filter>tests\SpriteTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\SchedulerTest\SchedulerTest.cpp">
+      <Filter>tests\SchedulerTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\RenderTextureTest\RenderTextureTest.cpp">
+      <Filter>tests\RenderTextureTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\ChipmunkTest\Bounce.cpp">
+      <Filter>tests\ChipmunkTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\ChipmunkTest\cocos2dChipmunkDemo.cpp">
+      <Filter>tests\ChipmunkTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\ChipmunkTest\drawSpace.cpp">
+      <Filter>tests\ChipmunkTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\ChipmunkTest\Joints.cpp">
+      <Filter>tests\ChipmunkTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\ChipmunkTest\LogoSmash.cpp">
+      <Filter>tests\ChipmunkTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\ChipmunkTest\MagnetsElectric.cpp">
+      <Filter>tests\ChipmunkTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\ChipmunkTest\OneWay.cpp">
+      <Filter>tests\ChipmunkTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\ChipmunkTest\Planet.cpp">
+      <Filter>tests\ChipmunkTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\ChipmunkTest\Player.cpp">
+      <Filter>tests\ChipmunkTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\ChipmunkTest\Plink.cpp">
+      <Filter>tests\ChipmunkTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\ChipmunkTest\Pump.cpp">
+      <Filter>tests\ChipmunkTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\ChipmunkTest\PyramidStack.cpp">
+      <Filter>tests\ChipmunkTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\ChipmunkTest\PyramidTopple.cpp">
+      <Filter>tests\ChipmunkTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\ChipmunkTest\Query.cpp">
+      <Filter>tests\ChipmunkTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\ChipmunkTest\Sensors.cpp">
+      <Filter>tests\ChipmunkTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\ChipmunkTest\Simple.cpp">
+      <Filter>tests\ChipmunkTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\ChipmunkTest\Springies.cpp">
+      <Filter>tests\ChipmunkTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\ChipmunkTest\TheoJansen.cpp">
+      <Filter>tests\ChipmunkTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\ChipmunkTest\Tumble.cpp">
+      <Filter>tests\ChipmunkTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\ChipmunkTest\UnsafeOps.cpp">
+      <Filter>tests\ChipmunkTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\Box2DTest\Box2dTest.cpp">
+      <Filter>tests\Box2dTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\Box2DTestBed\Box2dView.cpp">
+      <Filter>tests\Box2DTestBed</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\Box2DTestBed\GLES-Render.cpp">
+      <Filter>tests\Box2DTestBed</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\Box2DTestBed\Test.cpp">
+      <Filter>tests\Box2DTestBed</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\Box2DTestBed\TestEntries.cpp">
+      <Filter>tests\Box2DTestBed</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\EffectsAdvancedTest\EffectsAdvancedTest.cpp">
+      <Filter>tests\EffectsAdvancedTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\HiResTest\HiResTest.cpp">
+      <Filter>tests\HiResTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\KeypadTest\KeypadTest.cpp">
+      <Filter>tests\KeypadTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\CocosDenshionTest\CocosDenshionTest.cpp">
+      <Filter>tests\CocosDenshionTest</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AppDelegate.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\controller.h">
+      <Filter>tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\testBasic.h">
+      <Filter>tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\testResource.h">
+      <Filter>tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\tests.h">
+      <Filter>tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\ActionsTest\ActionsTest.h">
+      <Filter>tests\ActionsTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\TransitionsTest\TransitionsTest.h">
+      <Filter>tests\TransitionsTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\ProgressActionsTest\ProgressActionsTest.h">
+      <Filter>tests\ProgressActionsTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\EffectsTest\EffectsTest.h">
+      <Filter>tests\EffectsTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\ClickAndMoveTest\ClickAndMoveTest.h">
+      <Filter>tests\ClickAndMoveTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\RotateWorldTest\RotateWorldTest.h">
+      <Filter>tests\RotateWorldTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\ParticleTest\ParticleTest.h">
+      <Filter>tests\ParticleTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\EaseActionsTest\EaseActionsTest.h">
+      <Filter>tests\EaseActionsTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\MotionStreakTest\MotionStreakTest.h">
+      <Filter>tests\MotionStreakTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\DrawPrimitivesTest\DrawPrimitivesTest.h">
+      <Filter>tests\DrawPrimitivesTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\CocosNodeTest\CocosNodeTest.h">
+      <Filter>tests\CocosNodeTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\TouchesTest\Ball.h">
+      <Filter>tests\TouchesTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\TouchesTest\Paddle.h">
+      <Filter>tests\TouchesTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\TouchesTest\TouchesTest.h">
+      <Filter>tests\TouchesTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\MenuTest\MenuTest.h">
+      <Filter>tests\MenuTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\ActionManagerTest\ActionManagerTest.h">
+      <Filter>tests\ActionManagerTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\LayerTest\LayerTest.h">
+      <Filter>tests\LayerTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\SceneTest\SceneTest.h">
+      <Filter>tests\SceneTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\ParallaxTest\ParallaxTest.h">
+      <Filter>tests\ParallaxTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\TileMapTest\TileMapTest.h">
+      <Filter>tests\TileMapTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\IntervalTest\IntervalTest.h">
+      <Filter>tests\IntervalTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\AtlasTest\AtlasTest.h">
+      <Filter>tests\AtlasTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\SpriteTest\SpriteTest.h">
+      <Filter>tests\SpriteTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\SchedulerTest\SchedulerTest.h">
+      <Filter>tests\SchedulerTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\RenderTextureTest\RenderTextureTest.h">
+      <Filter>tests\RenderTextureTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\ChipmunkTest\ChipmunkDemo.h">
+      <Filter>tests\ChipmunkTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\ChipmunkTest\cocos2dChipmunkDemo.h">
+      <Filter>tests\ChipmunkTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\ChipmunkTest\drawSpace.h">
+      <Filter>tests\ChipmunkTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\Box2DTest\Box2dTest.h">
+      <Filter>tests\Box2dTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\Box2DTestBed\Box2dView.h">
+      <Filter>tests\Box2DTestBed</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\Box2DTestBed\GLES-Render.h">
+      <Filter>tests\Box2DTestBed</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\Box2DTestBed\Test.h">
+      <Filter>tests\Box2DTestBed</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\Box2DTestBed\Tests\ApplyForce.h">
+      <Filter>tests\Box2DTestBed\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\Box2DTestBed\Tests\BodyTypes.h">
+      <Filter>tests\Box2DTestBed\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\Box2DTestBed\Tests\Breakable.h">
+      <Filter>tests\Box2DTestBed\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\Box2DTestBed\Tests\Bridge.h">
+      <Filter>tests\Box2DTestBed\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\Box2DTestBed\Tests\Cantilever.h">
+      <Filter>tests\Box2DTestBed\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\Box2DTestBed\Tests\Chain.h">
+      <Filter>tests\Box2DTestBed\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\Box2DTestBed\Tests\CharacterCollision.h">
+      <Filter>tests\Box2DTestBed\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\Box2DTestBed\Tests\CollisionFiltering.h">
+      <Filter>tests\Box2DTestBed\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\Box2DTestBed\Tests\CollisionProcessing.h">
+      <Filter>tests\Box2DTestBed\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\Box2DTestBed\Tests\CompoundShapes.h">
+      <Filter>tests\Box2DTestBed\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\Box2DTestBed\Tests\Confined.h">
+      <Filter>tests\Box2DTestBed\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\Box2DTestBed\Tests\ContinuousTest.h">
+      <Filter>tests\Box2DTestBed\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\Box2DTestBed\Tests\DistanceTest.h">
+      <Filter>tests\Box2DTestBed\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\Box2DTestBed\Tests\Dominos.h">
+      <Filter>tests\Box2DTestBed\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\Box2DTestBed\Tests\DynamicTreeTest.h">
+      <Filter>tests\Box2DTestBed\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\Box2DTestBed\Tests\EdgeShapes.h">
+      <Filter>tests\Box2DTestBed\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\Box2DTestBed\Tests\ElasticBody.h">
+      <Filter>tests\Box2DTestBed\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\Box2DTestBed\Tests\Gears.h">
+      <Filter>tests\Box2DTestBed\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\Box2DTestBed\Tests\LineJoint.h">
+      <Filter>tests\Box2DTestBed\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\Box2DTestBed\Tests\OneSidedPlatform.h">
+      <Filter>tests\Box2DTestBed\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\Box2DTestBed\Tests\PolyCollision.h">
+      <Filter>tests\Box2DTestBed\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\Box2DTestBed\Tests\PolyShapes.h">
+      <Filter>tests\Box2DTestBed\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\Box2DTestBed\Tests\Prismatic.h">
+      <Filter>tests\Box2DTestBed\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\Box2DTestBed\Tests\Pulleys.h">
+      <Filter>tests\Box2DTestBed\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\Box2DTestBed\Tests\Pyramid.h">
+      <Filter>tests\Box2DTestBed\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\Box2DTestBed\Tests\RayCast.h">
+      <Filter>tests\Box2DTestBed\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\Box2DTestBed\Tests\Revolute.h">
+      <Filter>tests\Box2DTestBed\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\Box2DTestBed\Tests\SensorTest.h">
+      <Filter>tests\Box2DTestBed\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\Box2DTestBed\Tests\ShapeEditing.h">
+      <Filter>tests\Box2DTestBed\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\Box2DTestBed\Tests\SliderCrank.h">
+      <Filter>tests\Box2DTestBed\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\Box2DTestBed\Tests\SphereStack.h">
+      <Filter>tests\Box2DTestBed\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\Box2DTestBed\Tests\TheoJansen.h">
+      <Filter>tests\Box2DTestBed\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\Box2DTestBed\Tests\TimeOfImpact.h">
+      <Filter>tests\Box2DTestBed\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\Box2DTestBed\Tests\VaryingFriction.h">
+      <Filter>tests\Box2DTestBed\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\Box2DTestBed\Tests\VaryingRestitution.h">
+      <Filter>tests\Box2DTestBed\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\Box2DTestBed\Tests\VerticalStack.h">
+      <Filter>tests\Box2DTestBed\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\Box2DTestBed\Tests\Web.h">
+      <Filter>tests\Box2DTestBed\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\EffectsAdvancedTest\EffectsAdvancedTest.h">
+      <Filter>tests\EffectsAdvancedTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\HiResTest\HiResTest.h">
+      <Filter>tests\HiResTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\KeypadTest\KeypadTest.h">
+      <Filter>tests\KeypadTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tests\CocosDenshionTest\CocosDenshionTest.h">
+      <Filter>tests\CocosDenshionTest</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

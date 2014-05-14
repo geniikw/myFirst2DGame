@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>GameSchool</ProjectName>
+    <ProjectGuid>{B8BF9E81-35FD-4582-BA1C-B85FA365BABB}</ProjectGuid>
+    <RootNamespace>HelloWorldwin32</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.21005.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir>$(Configuration).win32\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\FMOD\api\inc;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\FMOD\api\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir>$(Configuration).win32\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\cocos2dx;..\..\cocos2dx\include;..\..\CocosDenshion\include;..\..\;..\..\chipmunk\include\chipmunk;..\tests;..\..\cocos2dx\platform\win32\third_party\OGLES\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libcocos2d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /Y "$(ProjectDir)..\Resource\*.*" "$(OutDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>..\..\cocos2dx\include;..\..\cocos2dx;..\..\cocos2dx\platform\win32\third_party\OGLES\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libcocos2d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /Y "$(ProjectDir)..\Resource\*.*" "$(OutDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\AppDelegate.cpp" />
+    <ClCompile Include="Battle_Unit.cpp" />
+    <ClCompile Include="dataMotion.cpp" />
+    <ClCompile Include="Battle_Portrait.cpp" />
+    <ClCompile Include="kwController.cpp" />
+    <ClCompile Include="kwMsg_Action.cpp" />
+    <ClCompile Include="kwOrder.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="basicScene.cpp" />
+    <ClCompile Include="MotionFileFormatClass.cpp" />
+    <ClCompile Include="BackGroundSprite.cpp" />
+    <ClCompile Include="My3DCube.cpp" />
+    <ClCompile Include="Point.cpp" />
+    <ClCompile Include="SceneTitle.cpp" />
+    <ClCompile Include="SceneTown.cpp" />
+    <ClCompile Include="MotionSet.cpp" />
+    <ClCompile Include="Object_Hero.cpp" />
+    <ClCompile Include="header.cpp" />
+    <ClCompile Include="CObject_Deco.cpp" />
+    <ClCompile Include="Manager_Resource.cpp" />
+    <ClCompile Include="SceneLoading.cpp" />
+    <ClCompile Include="SceneBattle.cpp" />
+    <ClCompile Include="UI_TownMenu.cpp" />
+    <ClCompile Include="UI_CharState.cpp" />
+    <ClCompile Include="UI_Menu.cpp" />
+    <ClCompile Include="Manager_Global.cpp" />
+    <ClCompile Include="MYUnit.cpp" />
+    <ClCompile Include="kwSprite.cpp" />
+    <ClCompile Include="Object_Char.cpp" />
+    <ClCompile Include="My3DEllipse.cpp" />
+    <ClCompile Include="Object_MiniCube.cpp" />
+    <ClCompile Include="Status.cpp" />
+    <ClCompile Include="kwOrderMoveToPoint.cpp" />
+    <ClCompile Include="Character_data.cpp" />
+    <ClCompile Include="My3DCursor.cpp" />
+    <ClCompile Include="Battle_Cursor.cpp" />
+    <ClCompile Include="Animation.cpp" />
+    <ClCompile Include="Battle_AttackBox.cpp" />
+    <ClCompile Include="kwOrderAction.cpp" />
+    <ClCompile Include="kwOrderWaiting.cpp" />
+    <ClCompile Include="kwOrderHit.cpp" />
+    <ClCompile Include="Shadow.cpp" />
+    <ClCompile Include="Battle_Damage.cpp" />
+    <ClCompile Include="Battle_CharUI.cpp" />
+    <ClCompile Include="Portrait.cpp" />
+    <ClCompile Include="Action_Card.cpp" />
+    <ClCompile Include="Battle_MenuUI.cpp" />
+    <ClCompile Include="kwMsg_Ani.cpp" />
+    <ClCompile Include="kwMoving.cpp" />
+    <ClCompile Include="kwMoving_Vector.cpp" />
+    <ClCompile Include="kwMoving_Target.cpp" />
+    <ClCompile Include="kwMoving_Curve.cpp" />
+    <ClCompile Include="Battle_CutEffect.cpp" />
+    <ClCompile Include="EffectSprite.cpp" />
+    <ClCompile Include="Battle_HitEffect.cpp" />
+    <ClCompile Include="Battle_ATB.cpp" />
+    <ClCompile Include="Battle_Meiling.cpp" />
+    <ClCompile Include="Battle_Komachi.cpp" />
+    <ClCompile Include="Battle_Reimu.cpp" />
+    <ClCompile Include="Battle_Aya.cpp" />
+    <ClCompile Include="Battle_Enermy.cpp" />
+    <ClCompile Include="kwOrder_Crash.cpp" />
+    <ClCompile Include="Manager_Sound.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\AppDelegate.h" />
+    <ClInclude Include="Battle_Enermy.h" />
+    <ClInclude Include="Battle_Unit.h" />
+    <ClInclude Include="dataFrame.h" />
+    <ClInclude Include="dataMotion.h" />
+    <ClInclude Include="kwMsg_Action.h" />
+    <ClInclude Include="kwOrder_Crash.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="basicScene.h" />
+    <ClInclude Include="Manager_Sound.h" />
+    <ClInclude Include="MotionFileFormatClass.h" />
+    <ClInclude Include="My3DCube.h" />
+    <ClInclude Include="myUnitHeader.cpp" />
+    <ClInclude Include="myUnitHeader.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="SceneTitle.h" />
+    <ClInclude Include="SceneTown.h" />
+    <ClInclude Include="Object_Hero.h" />
+    <ClInclude Include="MotionSet.h" />
+    <ClInclude Include="header.h" />
+    <ClInclude Include="CObject_Deco.h" />
+    <ClInclude Include="Object_header.h" />
+    <ClInclude Include="Manager_Resource.h" />
+    <ClInclude Include="SceneLoading.h" />
+    <ClInclude Include="SceneBattle.h" />
+    <ClInclude Include="UI_TownMenu.h" />
+    <ClInclude Include="UI_CharState.h" />
+    <ClInclude Include="UI_Menu.h" />
+    <ClInclude Include="Manager_Global.h" />
+    <ClInclude Include="MYUnit.h" />
+    <ClInclude Include="BackGroundSprite.h" />
+    <ClInclude Include="Object_Char.h" />
+    <ClInclude Include="kwSprite.h" />
+    <ClInclude Include="My3DEllipse.h" />
+    <ClInclude Include="Point.h" />
+    <ClInclude Include="Object_MiniCube.h" />
+    <ClInclude Include="kwController.h" />
+    <ClInclude Include="kwOrder.h" />
+    <ClInclude Include="kwOrderMoveToPoint.h" />
+    <ClInclude Include="Status.h" />
+    <ClInclude Include="header_Unit.h" />
+    <ClInclude Include="Character_data.h" />
+    <ClInclude Include="My3DCursor.h" />
+    <ClInclude Include="Battle_Cursor.h" />
+    <ClInclude Include="kwOrderAction.h" />
+    <ClInclude Include="Battle_AttackBox.h" />
+    <ClInclude Include="Animation.h" />
+    <ClInclude Include="kwOrderWaiting.h" />
+    <ClInclude Include="kwOrderHit.h" />
+    <ClInclude Include="Shadow.h" />
+    <ClInclude Include="Battle_Damage.h" />
+    <ClInclude Include="Battle_CharUI.h" />
+    <ClInclude Include="Portrait.h" />
+    <ClInclude Include="Battle_Portrait.h" />
+    <ClInclude Include="Battle_MenuUI.h" />
+    <ClInclude Include="Action_Card.h" />
+    <ClInclude Include="kwMsg_Ani.h" />
+    <ClInclude Include="kwMoving.h" />
+    <ClInclude Include="kwMoving_Vector.h" />
+    <ClInclude Include="kwMoving_Target.h" />
+    <ClInclude Include="kwMoving_Curve.h" />
+    <ClInclude Include="kwOrderMoveToTarget.h" />
+    <ClInclude Include="Battle_CutEffect.h" />
+    <ClInclude Include="EffectSprite.h" />
+    <ClInclude Include="Battle_HitEffect.h" />
+    <ClInclude Include="Battle_Meiling.h" />
+    <ClInclude Include="Battle_Komachi.h" />
+    <ClInclude Include="Battle_Reimu.h" />
+    <ClInclude Include="Battle_Aya.h" />
+    <ClInclude Include="Battle_ATB.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\cocos2dx\proj.win32\cocos2d-win32.vcxproj">
+      <Project>{98a51ba8-fc3a-415b-ac8f-8c7bd464e93e}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="LoadingList.list" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameSchool.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="developeNote.txt" />
+    <Text Include="char_data.txt" />
+    <Text Include="note.txt" />
+    <Text Include="리소스 출처.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xsd Include="XMLSchema1.xsd">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </Xsd>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="meiling.xml" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

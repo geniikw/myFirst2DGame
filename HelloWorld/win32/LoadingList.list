@@ -1,0 +1,48 @@
+BVEvent\car.png car
+BVEvent\lenneth_illust.png lenneth_illust 
+BVEvent\zaku.png zaku
+BVLoading\NowLoadingText.png LoadText
+BVtitle\title.png title
+BVtitle\titleBG.png titleBG
+BVtitle\titleModel.png titleModel
+BVtitle\titleText.png titleText
+BVtown\bg1.png townBg
+BVtown\house1.png house1
+BVtown\house2.png house2
+BVtown\Sky.png Sky
+UI\UIMenu.png Menu
+UI\UIMenuChar.png CharMenu
+UI\UIMenuItem.png ItemMenu
+UI\UICharFrame.png UICharFrame
+UI\UIgauge1.png UIgauge1
+UI\UIgauge2.png UIgauge2
+UI\UIgauge3.png UIgauge3
+UI\UIgauge4.png UIgauge4
+UI\ATBar.png ATBar
+nothing.png DecoSpeech0
+BVSpeech\sbMenu.png DecoSpeech1
+BVSpeech\sbStore.png DecoSpeech2
+BattleBg\sky.png BBgSky
+BattleBg\house.png BBgHouse
+numbers.png numbers
+meirin.png meirin
+aya.png aya
+komachi.png komachi
+reimu.png reimu
+texture\whiteStone.png whiteTX
+texture\whitePlatform.png whiteTX2
+texture\snow.png snowTX
+texture\grass.png grassTX
+Portrait\Portrait.png portrait
+Portrait\portFrame.png portFrame
+ActionCard\ActionCard.png ACardRes
+effect\cutEffect.png cutEffect
+effect\hitEffect.png hitEffect
+END
+
+파일이름 primaryKey(이름)
+
+
+
+
+

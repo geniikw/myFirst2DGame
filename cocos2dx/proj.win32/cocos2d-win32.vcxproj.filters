@@ -1,0 +1,729 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="base_nodes">
+      <UniqueIdentifier>{d544c1da-8e76-446c-ac61-e4e3f7cfe606}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cocoa">
+      <UniqueIdentifier>{3f77c119-94ae-4889-8b04-2aee675c80e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="effects">
+      <UniqueIdentifier>{5888e3ea-3dc2-4d3c-af4a-7392cec23047}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="actions">
+      <UniqueIdentifier>{57cef8f3-7ee9-4482-838d-1c58405b3053}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{d6c3b474-32b7-407a-b410-10051f513b34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="label_nodes">
+      <UniqueIdentifier>{ccb3d8a2-5764-4b0f-ad65-2eaffea33d6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="layers_scenes_transitions_nodes">
+      <UniqueIdentifier>{1d32aa69-75f2-464e-a8d7-db48ea4a7f14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu_nodes">
+      <UniqueIdentifier>{58ceb7c6-d29e-4ada-99c2-80d163e9eb99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="misc_nodes">
+      <UniqueIdentifier>{bdabf1d4-51b8-4d38-91b9-ff0f55186347}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="particle_nodes">
+      <UniqueIdentifier>{0f70c62d-453a-4f45-b4a2-83bb56de146d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform">
+      <UniqueIdentifier>{288abfb6-7f4c-439a-924e-ea38ec2f0c15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\win32">
+      <UniqueIdentifier>{222ea369-dcf5-42ec-8f80-e80bc31c4d8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sprite_nodes">
+      <UniqueIdentifier>{7a3c3623-5072-42e0-a779-f30db5295afc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="support">
+      <UniqueIdentifier>{19614a3c-4ac7-48e3-a4fe-b6065402bdd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="support\data_support">
+      <UniqueIdentifier>{84024747-9317-462a-9e59-b96e58bc895f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="support\image_support">
+      <UniqueIdentifier>{566499ff-40ad-4295-ab5f-a952cf95c701}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="support\opengl_support">
+      <UniqueIdentifier>{117ea45a-aa16-435f-8f77-9b2782de05e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="support\zip_support">
+      <UniqueIdentifier>{c3be4d4d-c230-41c5-8706-20cbbf014e1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="support\file_support">
+      <UniqueIdentifier>{8803c009-8fff-4af7-88c0-c42b7d4f0db3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="textures">
+      <UniqueIdentifier>{da08be8e-efff-4833-9fb9-e3ff3d7f0eab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tileMap_parallax_nodes">
+      <UniqueIdentifier>{16ca1d0a-4e06-44e8-8610-dd22fe78cd19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="touch_dispatcher">
+      <UniqueIdentifier>{2ee54c31-bd6f-46a5-934b-417679908703}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="keypad_dispatcher">
+      <UniqueIdentifier>{05335e54-067d-4d9d-be56-1f41d0d34856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="event_dispatcher">
+      <UniqueIdentifier>{e1c2307e-2a57-488c-bf51-75981e0ceb0b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\base_nodes\CCAtlasNode.cpp">
+      <Filter>base_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cocoa\CGAffineTransform.cpp">
+      <Filter>cocoa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cocoa\CGGeometry.cpp">
+      <Filter>cocoa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cocoa\NSAutoreleasePool.cpp">
+      <Filter>cocoa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cocoa\NSData.cpp">
+      <Filter>cocoa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cocoa\NSObject.cpp">
+      <Filter>cocoa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cocoa\NSSet.cpp">
+      <Filter>cocoa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cocoa\NSZone.cpp">
+      <Filter>cocoa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\effects\CCGrabber.cpp">
+      <Filter>effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\actions\CCAction.cpp">
+      <Filter>actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\actions\CCActionCamera.cpp">
+      <Filter>actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\actions\CCActionEase.cpp">
+      <Filter>actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\actions\CCActionGrid.cpp">
+      <Filter>actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\actions\CCActionGrid3D.cpp">
+      <Filter>actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\actions\CCActionInstant.cpp">
+      <Filter>actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\actions\CCActionInterval.cpp">
+      <Filter>actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\actions\CCActionManager.cpp">
+      <Filter>actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\actions\CCActionPageTurn3D.cpp">
+      <Filter>actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\actions\CCActionProgressTimer.cpp">
+      <Filter>actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\actions\CCActionTiledGrid.cpp">
+      <Filter>actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\label_nodes\CCLabelAtlas.cpp">
+      <Filter>label_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\label_nodes\CCLabelBMFont.cpp">
+      <Filter>label_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\label_nodes\CCLabelTTF.cpp">
+      <Filter>label_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\layers_scenes_transitions_nodes\CCScene.cpp">
+      <Filter>layers_scenes_transitions_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\layers_scenes_transitions_nodes\CCTransitionPageTurn.cpp">
+      <Filter>layers_scenes_transitions_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\layers_scenes_transitions_nodes\CCTransitionRadial.cpp">
+      <Filter>layers_scenes_transitions_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\menu_nodes\CCMenuItem.cpp">
+      <Filter>menu_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\misc_nodes\CCMotionStreak.cpp">
+      <Filter>misc_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\misc_nodes\CCProgressTimer.cpp">
+      <Filter>misc_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\misc_nodes\CCRenderTexture.cpp">
+      <Filter>misc_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\misc_nodes\CCRibbon.cpp">
+      <Filter>misc_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\particle_nodes\CCParticleExamples.cpp">
+      <Filter>particle_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\particle_nodes\CCParticleSystem.cpp">
+      <Filter>particle_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\platform\CCParticleSystemPoint_mobile.cpp">
+      <Filter>particle_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\particle_nodes\CCParticleSystemQuad.cpp">
+      <Filter>particle_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\platform\CCDirector_mobile.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\platform\CCGrid_mobile.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\platform\CCLayer_mobile.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\platform\CCMenu_mobile.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\platform\CCNode_mobile.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\platform\CCTransition_mobile.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\platform\win32\CCNS_win32.cpp">
+      <Filter>platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\platform\win32\CCTime.cpp">
+      <Filter>platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\platform\win32\CCXApplication_win32.cpp">
+      <Filter>platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\platform\win32\CCXBitmapDC.cpp">
+      <Filter>platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\platform\win32\CCXCommon_win32.cpp">
+      <Filter>platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\platform\win32\CCXEGLView_win32.cpp">
+      <Filter>platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\platform\win32\CCXFileUtils_win32.cpp">
+      <Filter>platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\platform\win32\CCXUIImage_win32.cpp">
+      <Filter>platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\platform\win32\NSLock.cpp">
+      <Filter>platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sprite_nodes\CCAnimation.cpp">
+      <Filter>sprite_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sprite_nodes\CCAnimationCache.cpp">
+      <Filter>sprite_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sprite_nodes\CCSprite.cpp">
+      <Filter>sprite_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sprite_nodes\CCSpriteBatchNode.cpp">
+      <Filter>sprite_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sprite_nodes\CCSpriteFrame.cpp">
+      <Filter>sprite_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sprite_nodes\CCSpriteFrameCache.cpp">
+      <Filter>sprite_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sprite_nodes\CCSpriteSheet.cpp">
+      <Filter>sprite_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\support\base64.cpp">
+      <Filter>support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\support\CCProfiling.cpp">
+      <Filter>support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\support\ccUtils.cpp">
+      <Filter>support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\support\CGPointExtension.cpp">
+      <Filter>support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\support\TransformUtils.cpp">
+      <Filter>support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\support\image_support\TGAlib.cpp">
+      <Filter>support\image_support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\support\opengl_support\glu.cpp">
+      <Filter>support\opengl_support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\support\zip_support\ioapi.cpp">
+      <Filter>support\zip_support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\support\zip_support\unzip.cpp">
+      <Filter>support\zip_support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\support\zip_support\ZipUtils.cpp">
+      <Filter>support\zip_support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\support\file_support\FileUtils.cpp">
+      <Filter>support\file_support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\textures\CCPVRTexture.cpp">
+      <Filter>textures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\textures\CCTexture2D.cpp">
+      <Filter>textures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\textures\CCTextureAtlas.cpp">
+      <Filter>textures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\textures\CCTextureCache.cpp">
+      <Filter>textures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tileMap_parallax_nodes\CCParallaxNode.cpp">
+      <Filter>tileMap_parallax_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tileMap_parallax_nodes\CCTileMapAtlas.cpp">
+      <Filter>tileMap_parallax_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tileMap_parallax_nodes\CCTMXLayer.cpp">
+      <Filter>tileMap_parallax_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tileMap_parallax_nodes\CCTMXObjectGroup.cpp">
+      <Filter>tileMap_parallax_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tileMap_parallax_nodes\CCTMXTiledMap.cpp">
+      <Filter>tileMap_parallax_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tileMap_parallax_nodes\CCTMXXMLParser.cpp">
+      <Filter>tileMap_parallax_nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\touch_dispatcher\CCTouchDispatcher.cpp">
+      <Filter>touch_dispatcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\touch_dispatcher\CCTouchHandler.cpp">
+      <Filter>touch_dispatcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\keypad_dispatcher\CCKeypadDelegate.cpp">
+      <Filter>keypad_dispatcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\keypad_dispatcher\CCKeypadDispatcher.cpp">
+      <Filter>keypad_dispatcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\event_dispatcher\CCEventDispatcher.cpp">
+      <Filter>event_dispatcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\event_dispatcher\CCKeyboardEventDelegate.cpp">
+      <Filter>event_dispatcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\event_dispatcher\CCMouseEventDelegate.cpp">
+      <Filter>event_dispatcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CCamera.cpp" />
+    <ClCompile Include="..\CCConfiguration.cpp" />
+    <ClCompile Include="..\CCDrawingPrimitives.cpp" />
+    <ClCompile Include="..\CCScheduler.cpp" />
+    <ClCompile Include="..\cocos2d.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\effects\CCGrabber.h">
+      <Filter>effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\effects\CCGrid.h">
+      <Filter>effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCAction.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCActionCamera.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCActionEase.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCActionGrid.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCActionGrid3D.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCActionInstant.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCActionInterval.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCActionManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCActionPageTurn3D.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCActionProgressTimer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCActionTiledGrid.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCAnimation.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCAnimationCache.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCAtlasNode.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCCamera.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ccConfig.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCDirector.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCDrawingPrimitives.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCEventDispatcher.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCGL.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCKeyboardEventDelegate.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCKeypadDelegate.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCKeypadDispatcher.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCLabelAtlas.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCLabelBMFont.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCLabelTTF.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ccMacros.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCMenu.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCMenuItem.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCMotionStreak.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCMouseEventDelegate.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCNode.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCParallaxNode.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCParticleExamples.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCParticleSystem.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCParticleSystemPoint.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCParticleSystemQuad.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCProgressTimer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCProtocols.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCPVRTexture.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCRenderTexture.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCRibbon.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCScene.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCScheduler.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCSprite.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCSpriteBatchNode.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCSpriteFrame.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCSpriteFrameCache.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCSpriteSheet.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCTexture2D.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCTextureAtlas.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCTextureCache.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCTileMapAtlas.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCTMXLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCTMXObjectGroup.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCTMXTiledMap.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCTMXXMLParser.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCTouch.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCTouchDelegateProtocol.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCTouchDispatcher.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCTransition.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCTransitionPageTurn.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCTransitionRadial.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ccTypes.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCUIAccelerometerDelegate.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCXApplication.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCXCocos2dDefine.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ccxCommon.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCXEGLView.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCXFileUtils.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCXUIAccelerometer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CCXUIImage.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CGAffineTransform.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CGGeometry.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CGPointExtension.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\cocos2d.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FileUtils.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\NSAutoreleasePool.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\NSData.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\NSEvent.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\NSMutableArray.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\NSMutableDictionary.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\NSObject.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\NSSet.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\NSString.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\NSZone.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\selector_protocol.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\platform\CCArchOptimalParticleSystem.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\platform\CCFileUtils_platform.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\platform\CCParticleSystemPoint_mobile.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\platform\CCParticleSystemPoint_platform.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\platform\CCXApplication_platform.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\platform\CCXCocos2dDefine_platform.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\platform\ccxCommon_platform.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\platform\CCXEGLView_platform.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\platform\CCXMath.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\platform\CCXUIAccelerometer_platform.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\platform\CCXUIImage_platform.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\platform\config_platform.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\platform\platform.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\platform\win32\CCTime.h">
+      <Filter>platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\platform\win32\CCXApplication_win32.h">
+      <Filter>platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\platform\win32\CCXBitmapDC.h">
+      <Filter>platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\platform\win32\CCXCocos2dDefine_win32.h">
+      <Filter>platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\platform\win32\ccxCommon_win32.h">
+      <Filter>platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\platform\win32\CCXEGLView_win32.h">
+      <Filter>platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\platform\win32\CCXFileUtils_win32.h">
+      <Filter>platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\platform\win32\CCXUIAccelerometer_win32.h">
+      <Filter>platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\platform\win32\CCXUIImage_win32.h">
+      <Filter>platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\platform\win32\Cocos2dTypes.h">
+      <Filter>platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\platform\win32\NSLock.h">
+      <Filter>platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\support\base64.h">
+      <Filter>support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\support\CCProfiling.h">
+      <Filter>support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\support\ccUtils.h">
+      <Filter>support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\support\TransformUtils.h">
+      <Filter>support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\support\data_support\ccCArray.h">
+      <Filter>support\data_support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\support\data_support\uthash.h">
+      <Filter>support\data_support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\support\data_support\utlist.h">
+      <Filter>support\data_support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\support\image_support\TGAlib.h">
+      <Filter>support\image_support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\support\opengl_support\glu.h">
+      <Filter>support\opengl_support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\support\opengl_support\OpenGL_Internal.h">
+      <Filter>support\opengl_support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\support\zip_support\ioapi.h">
+      <Filter>support\zip_support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\support\zip_support\unzip.h">
+      <Filter>support\zip_support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\support\zip_support\ZipUtils.h">
+      <Filter>support\zip_support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\support\file_support\FileData.h">
+      <Filter>support\file_support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\touch_dispatcher\CCTouchHandler.h">
+      <Filter>touch_dispatcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CCConfiguration.h" />
+  </ItemGroup>
+</Project>
