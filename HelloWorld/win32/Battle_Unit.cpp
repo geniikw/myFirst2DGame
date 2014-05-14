@@ -15,13 +15,6 @@
 
 #include"header.h"
 
-float myFunc(CGPoint)
-{
-	return 0.f;
-}
-
-#define VL(ccp) myFunc(ccp)
-
 Battle_Unit::Battle_Unit()
 :Status(),Animation()
 { 
@@ -45,12 +38,6 @@ bool Battle_Unit::init()
 	m_StartPosition = CG3PointZero;
 	schedule(schedule_selector(Battle_Unit::tick));
 	m_iActionCount = 0;
-
-
-
-	CGPoint vector = ccp(123,456);
-	vector = vector / VL(vector); //¡§±‘»≠
-
 
 	return true;
 }

@@ -18,5 +18,5 @@ public:
 	
 	
 	float getSpeed(){ return m_fSpeed; }
-	void doMove(float dt);
+	bool doMove(float dt);
 };

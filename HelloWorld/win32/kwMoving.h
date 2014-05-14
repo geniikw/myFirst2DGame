@@ -12,5 +12,5 @@ public:
 	kwMoving(kwSprite *Owner);
 
 	void setOwner(kwSprite *Owner){ m_pOwner = Owner; }
-	virtual void doMove(float dt) = 0;
+	virtual bool doMove(float dt) = 0;
 };
