@@ -171,6 +171,7 @@
     <ClCompile Include="Battle_Enermy.cpp" />
     <ClCompile Include="kwOrder_Crash.cpp" />
     <ClCompile Include="Manager_Sound.cpp" />
+    <ClCompile Include="kwOrderMakeBullet.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\AppDelegate.h" />
@@ -179,6 +180,7 @@
     <ClInclude Include="dataFrame.h" />
     <ClInclude Include="dataMotion.h" />
     <ClInclude Include="kwMsg_Action.h" />
+    <ClInclude Include="kwOrderMakeBullet.h" />
     <ClInclude Include="kwOrder_Crash.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="basicScene.h" />

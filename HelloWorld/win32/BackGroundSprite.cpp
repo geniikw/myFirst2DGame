@@ -59,10 +59,6 @@ bool BackGroundSprite::init(float w, float h, float rate)
 		m_pPortrait[n]->setUnit(m_pControl[n]);
 	}
 
-	
-
-
-
 	Battle_Unit *pObject;
 	for (int n = 0; n < 10; n++)
 	{
@@ -233,10 +229,7 @@ void BackGroundSprite::ctrlFunc(ccTime dt)
 	
 	m_ctrl.getAsync();
 	KeySet set = m_ctrl.getKeySet();
-	if (set & (1 << 12))//t키를 누르면
-	{
-		pG->g_pControllPermission = pG->g_pBattleMenuUI;
-	}
+	
 	if (set & (1 << 10))//f7 누르면
 	{
 		pG->g_iDebugFlag = !pG->g_iDebugFlag;
@@ -327,6 +320,12 @@ void BackGroundSprite::AttackControll(KeySet set)
 		if (m_iCursorIndex < 0)
 			m_iCursorIndex = m_EnermyArray.size() - 1;
 	}
+	Manager_Global *pG = Manager_Global::getInstance();
+	if (set & (1 << 12))//t키를 누르면
+	{
+		pG->g_pControllPermission = pG->g_pBattleMenuUI;
+	}
+
 }
 void BackGroundSprite::DefenceControll(KeySet key)
 {

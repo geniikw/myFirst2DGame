@@ -10,5 +10,5 @@ public:
 
 	kwMoving_Target(kwSprite *pOwner,kwSprite *pTarget,float speed);
 	void setSpeed(float speed){ m_fSpeed = speed; }
-	void doMove(float dt);
+	bool doMove(float dt);
 };

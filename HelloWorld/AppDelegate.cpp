@@ -32,7 +32,7 @@ bool AppDelegate::applicationDidFinishLaunching()
 	int h = GetSystemMetrics(SM_CYSCREEN);
 
 	// 윈도우 초기화
-	if (!(m_pMainWnd = new CCXEGLView()) || !m_pMainWnd->Create(L"GameSchool", w, h))
+	if (!(m_pMainWnd = new CCXEGLView()) || !m_pMainWnd->Create(L"GameSchool", h*640/480, h))
 	{
 			delete m_pMainWnd;
 			return false;

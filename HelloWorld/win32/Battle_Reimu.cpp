@@ -8,19 +8,16 @@
 Battle_Reimu::Battle_Reimu(int cTag)
 {
 	init();
-
 	this->setStatus(100, 10, SR_A, 5, 5, 4);
 	this->reMakeCubeData(CG3Point(40, 6, 80));
 	setTag(cTag);
 	this->autorelease();
 	this->setResourceWithString("reimu");
 	m_iCharacterName = CN_HERO_REIMU;
-
 	for (int n = 0; n < 4; n++)
 	{
 		m_listCard[n].push_back(Action_Card(AC_MOVE));
-		m_listCard[n].push_back(Action_Card(AC_ATTACK1));
-		m_listCard[n].push_back(Action_Card(AC_ATTACK2 + n));
+		m_listCard[n].push_back(Action_Card(AC_ATTACK5));
 	}
 }
 

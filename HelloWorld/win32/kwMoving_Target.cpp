@@ -8,7 +8,8 @@ kwMoving_Target::kwMoving_Target(kwSprite *pOwner, kwSprite *pTarget, float spee
 	m_fSpeed = speed;
 }
 
-void kwMoving_Target::doMove(float dt)
+bool kwMoving_Target::doMove(float dt)
 {
 	m_pOwner->setPosition(m_pOwner->get3DPosition() + (*m_pOwner >> *m_pTarget) * m_fSpeed);
+	return false;
 }

@@ -13,5 +13,5 @@ class kwMoving_Curve : public kwMoving
 public:
 
 	kwMoving_Curve(kwSprite *pOwner, CG3Point posTarget, CG3Point vect, float speed, float rf,float rr);
-	void doMove(float dt);
+	bool doMove(float dt);
 };
