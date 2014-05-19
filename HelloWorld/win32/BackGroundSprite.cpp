@@ -104,15 +104,20 @@ bool BackGroundSprite::init(float w, float h, float rate)
 
 	m_fHeroATBFacter = 50;
 	m_fEnermyATBFacter = 40;
-	m_fReduceATBFacter = 10;
+	m_fReduceATBFacter = 5;
 
 	FILE *p;
 	char buffer[5];
 	fopen_s(&p, "gameSpeed.dat", "rt");
+	if (p == NULL)
+		return true;
+
 	fgets(buffer, 5, p);
 	m_fHeroATBFacter = atoi(buffer);
 	fgets(buffer, 5, p);
 	m_fEnermyATBFacter = atoi(buffer);
+	fgets(buffer, 5, p);
+	m_fReduceATBFacter = atoi(buffer);
 	fclose(p);
 	
 
@@ -139,6 +144,8 @@ void BackGroundSprite::tick(ccTime dt)
 		m_fHeroATBFacter = atoi(buffer);
 		fgets(buffer, 5, p);
 		m_fEnermyATBFacter = atoi(buffer);
+		fgets(buffer, 5, p);
+		m_fReduceATBFacter = atoi(buffer);
 		fclose(p);
 	}
 
@@ -373,11 +380,9 @@ void BackGroundSprite::doATB(ccTime dt)
 		if (m_ATBEnermy.getProgressRef() > 100.f)
 		{
 			m_iBattleTurn = BT_ENERMY;
-
 			for (int n = 0; n < m_EnermyArray.size(); n++)
 			{
 				m_EnermyArray[n]->turnStart();
-
 			}
 
 		}
@@ -385,7 +390,7 @@ void BackGroundSprite::doATB(ccTime dt)
 
 	if (m_iBattleTurn == BT_HERO)
 	{
-		if (m_ATBHero.reduceTick(dt))
+		if (m_ATBHero.reduceTick(dt*m_fReduceATBFacter))
 		{
 			m_iBattleTurn = 0;
 			for (int n = 0; n < 4; n++)
@@ -396,11 +401,9 @@ void BackGroundSprite::doATB(ccTime dt)
 	}
 	if (m_iBattleTurn == BT_ENERMY)
 	{
-		m_ATBEnermy.getProgressRef() -= dt * 5;
-		if (m_ATBEnermy.reduceTick(dt))
+		if (m_ATBEnermy.reduceTick(dt*m_fReduceATBFacter))
 		{
 			m_iBattleTurn = 0;
-
 			for (int n = 0; n < m_EnermyArray.size(); n++)
 			{
 				m_EnermyArray[n]->turnEnd();

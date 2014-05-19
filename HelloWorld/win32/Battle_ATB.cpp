@@ -45,7 +45,7 @@ void Battle_ATB::tick(ccTime dt)
 
 bool Battle_ATB::reduceTick(ccTime dt)
 {
-	m_fProgressTime -= dt * 5;
+	m_fProgressTime -= dt;
 
 	if (m_fProgressTime < 0.f)
 	{
