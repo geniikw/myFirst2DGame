@@ -11,10 +11,10 @@ struct CG3Point
 public://내부에 정의부에 선언된 함수는 inline이래...
 
 	CG3Point getXYPosition() const { CG3Point res = *this; res.z = 0; return res; }
-
 	//백터로 사용되었을때 길이를 구함
 	float getVectorLenght(){ return sqrtf(x*x + y*y + z*z); }
 	CG3Point getUnitVector(){ return *this / getVectorLenght(); }
+	void rotationAxis(const CG3Point &axis, const float &Radian);
 
 	CG3Point operator+=(const CG3Point &other)
 	{
@@ -104,6 +104,5 @@ struct CG3Cube
 	CG3Point origin;
 	CG3Point size;
 };
-
 
 float ccp3Distance(const CG3Point& pos1, const CG3Point& pos2);

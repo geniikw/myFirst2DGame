@@ -102,6 +102,19 @@ bool BackGroundSprite::init(float w, float h, float rate)
 	m_ATBEnermy.setPosition(ccp(640,0));
 	m_ATBEnermy.setAnchorPoint(ccp(1, 0));
 
+	m_fHeroATBFacter = 50;
+	m_fEnermyATBFacter = 40;
+
+	FILE *p;
+	char buffer[5];
+	fopen_s(&p, "gameSpeed.dat", "rt");
+	fgets(buffer, 5, p);
+	m_fHeroATBFacter = atoi(buffer);
+	fgets(buffer, 5, p);
+	m_fEnermyATBFacter = atoi(buffer);
+	fclose(p);
+	
+
 	return true;
 }
 BackGroundSprite::~BackGroundSprite()
@@ -109,15 +122,29 @@ BackGroundSprite::~BackGroundSprite()
 	delete[] m_pAttackBoxArray;
 	delete m_pCursor;
 }
+#include"Manager_Global.h"
 
 void BackGroundSprite::tick(ccTime dt)
 {
+	Manager_Global *pGM = Manager_Global::getInstance();
+
+	dt = pGM->g_fBattleDT * dt;
+	if (pGM->g_iDebugFlag == 1)
+	{
+		FILE *p;
+		char buffer[5];
+		fopen_s(&p, "gameSpeed.dat", "rt");
+		fgets(buffer, 5, p);
+		m_fHeroATBFacter = atoi(buffer);
+		fgets(buffer, 5, p);
+		m_fEnermyATBFacter = atoi(buffer);
+		fclose(p);
+	}
+
 	//debug;;
 	ctrlFunc(dt);
 	
 	doATB(dt);
-
-
 	m_pRender->setPosition(Manager_Global::getInstance()->g_offsetGameScroll + ccp(-590, 0));
 	m_pPosData->setCenterTilt(linear(0.f, 1.f, Manager_Global::getInstance()->g_offsetGameScroll.x,-800)+0.4f);
 	//Manager_Global::getInstance()->g_offsetGameScroll;
@@ -132,8 +159,6 @@ void BackGroundSprite::addChild(Battle_Unit* child)
 	{
 		case CT_HERO:
 		{
-					
-					
 					m_HeroArray.push_back(child); 		
 					break;
 		}
@@ -216,7 +241,6 @@ void BackGroundSprite::ctrlFunc(ccTime dt)
 	Manager_Global *pG = Manager_Global::getInstance();
 	
 	dt = pG->g_fBattleDT * dt;
-
 	if (pG->g_pControllPermission != this)
 	{
 		m_pDeepDark->setOpacity(200.f);
@@ -275,10 +299,6 @@ void BackGroundSprite::requestUseAttackBox(shared_ptr<kwMsg_Action> msg, Battle_
 	{
 		m_pAttackBoxArray[m_iAttackBoxIndex].setPosition(owner->get3DRightSide() + msg->m_offsetAB);
 	}
-	
-	
-	
-	
 	m_iAttackBoxIndex++;
 
 	if (m_iAttackBoxIndex >= g_MaxAttackBox)
@@ -336,10 +356,11 @@ void BackGroundSprite::DefenceControll(KeySet key)
 
 void BackGroundSprite::doATB(ccTime dt)
 {
+
 	if (m_iBattleTurn == BT_NOHING)
 	{
-		m_ATBHero.getProgressRef() += dt * 40;
-		m_ATBEnermy.getProgressRef() += dt * 50;
+		m_ATBHero.getProgressRef() += dt * m_fHeroATBFacter;
+		m_ATBEnermy.getProgressRef() += dt * m_fEnermyATBFacter;
 		if (m_ATBHero.getProgressRef() > 100.f)
 		{
 			m_iBattleTurn = BT_HERO;
@@ -347,7 +368,6 @@ void BackGroundSprite::doATB(ccTime dt)
 			{
 				m_HeroArray[n]->turnStart();
 			}
-
 		}
 		if (m_ATBEnermy.getProgressRef() > 100.f)
 		{

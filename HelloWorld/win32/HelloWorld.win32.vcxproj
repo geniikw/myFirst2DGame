@@ -52,6 +52,8 @@
     <OutDir>$(SolutionDir)$(Configuration).win32\</OutDir>
     <IntDir>$(Configuration).win32\</IntDir>
     <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\FMOD\api\inc;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\FMOD\api\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -172,6 +174,7 @@
     <ClCompile Include="kwOrder_Crash.cpp" />
     <ClCompile Include="Manager_Sound.cpp" />
     <ClCompile Include="kwOrderMakeBullet.cpp" />
+    <ClCompile Include="Matrix3x3.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\AppDelegate.h" />
@@ -245,6 +248,8 @@
     <ClInclude Include="Battle_Reimu.h" />
     <ClInclude Include="Battle_Aya.h" />
     <ClInclude Include="Battle_ATB.h" />
+    <ClInclude Include="Matrix3x3.h" />
+    <ClInclude Include="UnitUnitedHeader.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\cocos2dx\proj.win32\cocos2d-win32.vcxproj">

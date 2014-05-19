@@ -313,6 +313,9 @@
     <ClCompile Include="kwOrderMakeBullet.cpp">
       <Filter>Framework\BattleScene\kwOrder</Filter>
     </ClCompile>
+    <ClCompile Include="Matrix3x3.cpp">
+      <Filter>Framework\BattleScene\kwSprite\2.5DClass\Unit</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\AppDelegate.h">
@@ -527,6 +530,12 @@
     </ClInclude>
     <ClInclude Include="kwOrderMakeBullet.h">
       <Filter>Framework\BattleScene\kwOrder</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix3x3.h">
+      <Filter>Framework\BattleScene\kwSprite\2.5DClass\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitUnitedHeader.h">
+      <Filter>Framework\BattleScene\kwSprite\2.5DClass\Unit</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

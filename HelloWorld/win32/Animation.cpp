@@ -68,7 +68,6 @@ char const* Animation::getAnimationString(int CAT)
 
 void Animation::doAni(ccTime dt)
 {
-
 	if (m_iFrameEndIndex == 0)
 		m_iFrameEndIndex = getAniMaxFrame()-1;
 

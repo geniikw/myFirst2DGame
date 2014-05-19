@@ -8,6 +8,8 @@ private:
 	char buf[32];
 	float m_fLoadingCooltime;
 
+	int m_iMaxIndexRunAni;
+
 private:
 	float m_fLoadingTime;
 	float m_fX;
@@ -30,7 +32,6 @@ public:
 
 	bool init();
 	void tick(ccTime dt);
-	void tick2(ccTime dt);
 
 	void LoadingAnimation(ccTime dt);
 

@@ -44,6 +44,10 @@ class BackGroundSprite : public kwSprite
 	Battle_ATB			m_ATBHero;
 	Battle_ATB			m_ATBEnermy;
 
+	float				m_fHeroATBFacter;
+	float				m_fEnermyATBFacter;
+
+
 private:
 
 	CCLayerColor		*m_pDeepDark;

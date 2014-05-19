@@ -29,7 +29,6 @@ void Battle_Reimu::doCard(const Action_Card &card)
 	bool isRight = this->get3DPosition().x - m_pMap->getCurrentTargetPointer()->get3DPosition().x < 0.f;
 	float x;
 
-
 	if (isRight)
 	{
 		x = 1;
@@ -55,7 +54,6 @@ void Battle_Reimu::doCard(const Action_Card &card)
 								this,
 								moveBackPoint
 								, 100.f, 200.f, 400.f, shared_ptr<kwMsg_Ani>(new kwMsg_Ani(CAT_RUN, 0, 2, 0, 0.1f))));
-
 							break;
 		}
 		case AC_ATTACK1:

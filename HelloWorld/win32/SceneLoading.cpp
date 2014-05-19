@@ -51,13 +51,21 @@ bool SceneLoading::init()
 		
 		char *tempBuf = wtoa(buf);
 		ani->initWithName(tempBuf);
+		if (!strcmp(tempBuf, "RUNE"))
+		{
+			m_iMaxIndexRunAni = temp.frame.size();
+
+		}
+		
 		delete tempBuf;
+
 
 		for (int i = 0; i < temp.frame.size(); i++)
 			ani->addFrameWithTexture(res, temp.frame[i]);
 
 		m_pLoadingImage->addAnimation(ani);
 	}
+//	m_iMaxIndexRunAni = m_pLoadingImage->animationByName("RUNE")->getFrames()->count();
 
 	//m_pLoadingImage->addAnimation(pHero->animationByName("RUNM"));
 	//m_pLoadingImage->addAnimation(pHero->animationByName("RUNS"));
@@ -93,7 +101,9 @@ bool SceneLoading::init()
 
 void SceneLoading::tick(ccTime dt)
 {
+	this;
 	LoadingAnimation(dt);
+
 	m_fLoadingCooltime += dt;
 	if (m_fLoadingCooltime > 0.f)
 	{
@@ -106,14 +116,10 @@ void SceneLoading::tick(ccTime dt)
 		m_pLoadingFileText->setString(temp.filename.c_str());
 	}
 }
-void SceneLoading::tick2(ccTime dt)
-{
-	
-}
 
 void SceneLoading::LoadingAnimation(ccTime dt)
 {
-	static char buf[6];
+	char buf[6];
 	strcpy(buf, "RUNM");
 
 	if (m_bR == 0)
@@ -167,12 +173,13 @@ void SceneLoading::LoadingAnimation(ccTime dt)
 	else
 		m_pLoadingImage->setFlipX(false);
 
-	m_fLoadingTime += dt * 10;
+	m_fLoadingTime += dt;
 
-	int n = (int)m_fLoadingTime % m_pLoadingImage->animationByName(buf)->getFrames()->count();
+
+	CCAnimation *p = m_pLoadingImage->animationByName(buf);
+	NSMutableArray <CCSpriteFrame*>* pFrames = p->getFrames();
 	
-	
-	m_pLoadingImage->setPosition(ccp(320 + 100 * sin(m_fLoadingTime*dt), 260));
-	m_pLoadingImage->setDisplayFrame(buf, n);
+	m_pLoadingImage->setPosition(ccp(320 + 100 * sin(m_fLoadingTime), 260));
+	m_pLoadingImage->setDisplayFrame(buf, (int)m_fLoadingTime % m_iMaxIndexRunAni);
 	m_pLoadingText->setColor(ccc3(m_r, m_g, m_b));
 }

@@ -27,12 +27,34 @@ CCX_SAFE_DELETE(m_pMainWnd);
 }
 bool AppDelegate::applicationDidFinishLaunching()
 {
+	int w;
+	int h;
+	FILE *f;
+	fopen_s(&f, "resolution.dat", "r");
+	if (f == NULL)
+	{
+		w = GetSystemMetrics(SM_CXSCREEN);
+		h = GetSystemMetrics(SM_CYSCREEN);
+	}
+	else
+	{
+		char buffer[5];
+		fgets(buffer, 5, f);
+		w = atoi(buffer);
+		fgets(buffer, 5, f);
+		h = atoi(buffer);
 
-	int w = GetSystemMetrics(SM_CXSCREEN);
-	int h = GetSystemMetrics(SM_CYSCREEN);
+		if (w == 0 || h == 0)
+		{
+			w = GetSystemMetrics(SM_CXSCREEN);
+			h = GetSystemMetrics(SM_CYSCREEN);
+		}
+	}
+
+	fclose(f);
 
 	// 윈도우 초기화
-	if (!(m_pMainWnd = new CCXEGLView()) || !m_pMainWnd->Create(L"GameSchool", h*640/480, h))
+	if (!(m_pMainWnd = new CCXEGLView()) || !m_pMainWnd->Create(L"GameSchool", w, h))
 	{
 			delete m_pMainWnd;
 			return false;
