@@ -92,7 +92,7 @@ void kwSprite::draw()
 
 	if (m_pPosData != NULL)
 	{
-		m_pPosData->cc3dDrawInSP(getPosition() - Manager_Global::getInstance()->g_offsetGameScroll, getScale());
+		m_pPosData->cc3dDrawInSP(getPosition() - Manager_Global::getInstance()->g_offsetGameScroll, getScaleX());
 	}
 }
 

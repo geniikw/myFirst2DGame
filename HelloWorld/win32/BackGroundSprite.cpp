@@ -104,6 +104,7 @@ bool BackGroundSprite::init(float w, float h, float rate)
 
 	m_fHeroATBFacter = 50;
 	m_fEnermyATBFacter = 40;
+	m_fReduceATBFacter = 10;
 
 	FILE *p;
 	char buffer[5];

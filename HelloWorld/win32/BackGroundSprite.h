@@ -46,7 +46,7 @@ class BackGroundSprite : public kwSprite
 
 	float				m_fHeroATBFacter;
 	float				m_fEnermyATBFacter;
-
+	float				m_fReduceATBFacter;
 
 private:
 
