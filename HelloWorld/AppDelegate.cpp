@@ -49,10 +49,11 @@ bool AppDelegate::applicationDidFinishLaunching()
 			w = GetSystemMetrics(SM_CXSCREEN);
 			h = GetSystemMetrics(SM_CYSCREEN);
 		}
+		fclose(f);
+
 	}
 
-	fclose(f);
-
+	
 	// 윈도우 초기화
 	if (!(m_pMainWnd = new CCXEGLView()) || !m_pMainWnd->Create(L"GameSchool", w, h))
 	{

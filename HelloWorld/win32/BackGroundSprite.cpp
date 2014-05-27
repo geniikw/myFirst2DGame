@@ -140,13 +140,23 @@ void BackGroundSprite::tick(ccTime dt)
 		FILE *p;
 		char buffer[5];
 		fopen_s(&p, "gameSpeed.dat", "rt");
-		fgets(buffer, 5, p);
-		m_fHeroATBFacter = atoi(buffer);
-		fgets(buffer, 5, p);
-		m_fEnermyATBFacter = atoi(buffer);
-		fgets(buffer, 5, p);
-		m_fReduceATBFacter = atoi(buffer);
-		fclose(p);
+
+		if (p != NULL)
+		{
+			fgets(buffer, 5, p);
+			m_fHeroATBFacter = atoi(buffer);
+			fgets(buffer, 5, p);
+			m_fEnermyATBFacter = atoi(buffer);
+			fgets(buffer, 5, p);
+			m_fReduceATBFacter = atoi(buffer);
+			fclose(p);
+		}
+		else
+		{
+			m_fHeroATBFacter = 30.f;
+			m_fEnermyATBFacter = 20.f;
+			m_fReduceATBFacter = 10.f;
+		}
 	}
 
 	//debug;;
